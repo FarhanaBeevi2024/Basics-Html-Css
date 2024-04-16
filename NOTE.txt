@@ -1,0 +1,247 @@
+HTML - HYPERTEXT MARKUP LANGUAGE
+------------------------------
+
+* MARKUP LANGUAGE
+---------------
+- TAG BASED LANGUAGE
+- USED FOR DESIGNING PURPOSE
+- RUNNING BY USING BROWSER 
+
+* TAG
+-------
+<TAGNAME>
+
+*HTML
+------
+
+Basic tag - <HTML>
+
+<HTML>
+....
+....
+</HTML>
+
+* DIFFERENT TYPES OF TAG
+_________________________
+
+1. Opening Tag
+2. Closing Tag
+3. Self closing tags - void element
+
+
+BASIC STRUCTURE :
+
+necessary tags
+
+<HTML>
+<head>
+<title></title>
+</head>
+<body>
+    content
+</body>
+</HTML>
+
+
+*SEMANTIC TAGS
+_____________
+
+- to optimise the webpage
+
+1. header tag
+2. aside tag
+3. main tag
+4. footer tag
+
+
+
+eg : <header>  </header>
+
+we are using new version HTML 5
+
+*TAGS
+________
+
+1.  h tags
+
+h -  h1- h5 , to create headings
+
+2. p tag- paragraphs
+
+3. img tag- images  <img/>
+
+4. a tag - link, to navigate to other page
+
+
+*Block level elements - starts in a new line eg : h tag , p tag
+*inline element - starts in same line,eg : img tag, a tag
+
+
+Attributes - gives more information to a tag or property of a tag
+src, alt, width, height
+
+
+
+HTML 5 Features
+________________
+
+1. Video
+2. Audio
+3. Article tag
+4. nav tag
+5. progress tag
+6. figure tag
+7. section tag
+
+i frames - nesting of websites
+
+Types of lists
+---------------
+1) Ordered list - ol, li
+2) Unordered list  - ul,li
+
+TABLE
+----
+
+thead
+tbody
+tr  th  td
+
+
+Form
+-----
+tag- form
+label
+input
+
+Types of input :
+1)text
+2)password
+3)mail
+4)date
+5)radio
+6)number
+7)checkbox
+8)file
+
+name- for grouping
+id and for - for connecting the label and input
+min , max attributes used
+
+ textarea tag
+select and option tags
+button 
+
+
+************************************************************
+CSS
+cascading style sheets
+- to style the content
+
+Different way of using css :
+
+1)Inline Css
+----------------
+   - styling within the opening tag
+
+Syntax :-
+style= "property : value; "
+
+2) Internal Css
+-----------------
+
+Syntax :-
+
+<style>
+ tagname
+{
+property : value;
+}
+</style>
+
+
+3) External CSS
+----------------
+ -create an external file with extension - filename.css
+- should link the css file with the html file (using link tag)
+
+External Css is better than others, why?;
+
+- reduces complexity and increase the readability
+- reduces the loading time
+- can be reused
+
+Priority is more only for inline css
+priority order :
+inline> internal > external
+
+
+Css Selectors
+--------------
+
+1)tagname - styling using tag 
+2)id selector - unique styling,its symbol is (#)
+3) class selector - group styling , its symbol is (.) 
+4) universal selector - effect the entire document, its symbol is (*)
+
+   
+css box model
+-------------
+
+ - the box that wrap around each element
+- it contains;
+1) border - its a invisible line drawn around the content or element
+          - viewed by giving styles
+2) margin - the gap between the border and the outer space
+3) padding - space between the content and the border
+
+span tag 
+---------
+- its an inline element
+
+div tag
+-------
+-use to create divisions in the webpages
+-its a block level element
+
+
+CSS GRID SYSTEM
+---------------
+
+display: grid -  create grid to a section
+columns - grid-template-column
+rows- grid-template-row
+gap - column-gap
+      row-gap
+      gap
+
+
+
+
+
+
+mediaQuery
+--------
+- to create web pages responsive
+
+syntax:-
+
+@media(expression)
+{
+selectors
+{
+property: value;
+
+}
+
+extra small devices like mobile - maximum width is 600px
+small devices like portrait tablets, minimum width is 600px
+medium devices like landscape tablets -greater than or equalto 768px
+large devices like laptops, minimum width is 992px 
+extra large devices like large laptops - minimum width is 1200px
+
+
+
+
+
+

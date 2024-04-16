@@ -1,0 +1,137 @@
+*{
+    margin-left: 80px;
+    background-color: aqua;
+}
+
+div{
+    
+    width: 150px;
+    height : 150px;
+
+    margin-top: 100px;
+    margin-left: 400px;
+    
+    background-color:green;
+}
+#div1
+{
+    
+    margin-left: 560px;
+    margin-top: -150px;
+    background-color:brown;
+}
+#div2
+{
+    margin-left: 720px;
+    margin-top: -150px;
+    background-color:darksalmon;
+}
+#div3
+{
+    margin-left: 880px;
+    margin-top: -150px;
+    background-color:cornflowerblue;
+}
+#div4
+{
+    margin-left: 1040px;
+    margin-top: -150px;
+    background-color:darkmagenta;
+}
+
+#div5
+{
+    margin-left: 240px;
+    margin-top: 30px;
+    background-color: blueviolet;
+}
+#div6
+{
+    margin-left: 400px;
+    margin-top: -150px;
+    background-color: goldenrod;
+}
+#div7
+{
+    margin-left: 560px;
+    margin-top: -150px;
+    background-color:deeppink;
+}
+#div8
+{
+    margin-left: 720px;
+    margin-top: -150px;
+    background-color:indigo;
+}
+#div9
+{
+    margin-left: 880px;
+    margin-top: -150px;
+    background-color: red;
+}
+#div10
+{
+    margin-left: 1040px;
+    margin-top: -150px;
+    background-color: darkslateblue;
+}
+#div11
+{
+    margin-left: 1200px;
+    margin-top: -150px;
+    background-color: maroon;
+}
+#div12
+{
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color:rgb(57, 8, 107);
+}
+#div13
+{
+    margin-left: 240px;
+    margin-top: -150px;
+    background-color: lightslategray;
+}
+#div14
+{
+    margin-left: 400px;
+    margin-top: -150px;
+    background-color: sienna;
+}
+#div15
+{
+    margin-left: 560px;
+    margin-top: -150px;
+    background-color: black;
+}
+#div16
+{
+    margin-left: 720px;
+    margin-top: -150px;
+    background-color: darkolivegreen;
+}
+#div17
+{
+    margin-left: 880px;
+    margin-top: -150px;
+    background-color:seagreen;
+}
+#div18
+{
+    margin-left: 1040px;
+    margin-top: -150px;
+    background-color: deeppink;
+}
+#div19
+{
+    margin-left: 1200px;
+    margin-top: -150px;
+    background-color: blue;
+}
+#div20
+{
+    margin-left: 1360px;
+    margin-top: -150px;
+    background-color: violet;
+}

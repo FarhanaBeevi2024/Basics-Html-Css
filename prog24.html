@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root
+        {
+            --x:blue
+        }
+        h1
+        {
+            --y: red;
+            color: var(--x);       
+        }
+        /*#para1
+        {
+            color:var(--x);
+        }
+
+        #para2
+        {
+            color:var(--x);
+        } */
+        #para1
+        {
+            color:blue
+        }
+
+        #para2
+        {
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <h1>heading</h1>
+    <p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea minus at consequuntur hic beatae porro? Velit voluptate nesciunt ut, aspernatur minus id iste, molestias quos nam, minima aperiam dolorem reiciendis!</p>
+
+    <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, rerum. Unde impedit recusandae molestiae assumenda. Distinctio labore fugiat, quam hic perferendis nisi unde incidunt laudantium assumenda rem aut, ab repellendus!</p>
+</body>
+</html>
